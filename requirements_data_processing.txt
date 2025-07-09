@@ -1,0 +1,47 @@
+# 3D数据处理环境依赖包
+# 用于BioSNAP和BindingDB数据处理
+
+# 基础科学计算
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# 进度条和日志
+tqdm>=4.62.0
+
+# 网络请求
+aiohttp>=3.8.0
+requests>=2.25.0
+urllib3>=1.26.0
+
+# 机器学习
+scikit-learn>=1.0.0
+
+# 化学信息学 (注意：rdkit建议通过conda安装)
+# rdkit-pypi>=2022.3.0  # 如果conda不可用时使用
+
+# 图处理 (DGL CPU版本)
+dgl>=0.9.0
+
+# PyTorch CPU版本
+torch>=1.12.0
+torchvision>=0.13.0
+torchaudio>=0.12.0
+
+# 生物信息学
+biopython>=1.79
+
+# 数据格式处理
+openpyxl>=3.0.0  # Excel文件支持
+xlrd>=2.0.0      # 旧版Excel文件支持
+
+# 可选：Jupyter支持 (如果需要交互式分析)
+# jupyter>=1.0.0
+# ipykernel>=6.0.0
+
+# 注意事项：
+# 1. rdkit建议通过conda安装: conda install -c conda-forge rdkit
+# 2. PyMOL建议通过conda安装: conda install -c conda-forge pymol-open-source  
+# 3. OpenBabel建议通过conda安装: conda install -c conda-forge openbabel
+# 4. DIAMOND需要手动下载安装到 ~/bin/diamond

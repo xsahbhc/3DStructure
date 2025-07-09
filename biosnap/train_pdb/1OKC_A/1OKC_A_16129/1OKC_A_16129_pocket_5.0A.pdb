@@ -1,0 +1,152 @@
+CRYST1   85.437   83.463   49.922  90.00  90.00  90.00 P 21 21 2     1
+ATOM      1  N   LYS A  51      14.288   5.652   4.288  1.00 34.20           N  
+ATOM      2  CA  LYS A  51      12.855   5.438   4.464  1.00 36.23           C  
+ATOM      3  C   LYS A  51      12.420   5.395   5.922  1.00 35.25           C  
+ATOM      4  O   LYS A  51      11.230   5.489   6.218  1.00 36.60           O  
+ATOM      5  CB  LYS A  51      12.417   4.156   3.739  1.00 39.69           C  
+ATOM      6  CG  LYS A  51      12.861   4.107   2.275  1.00 44.42           C  
+ATOM      7  CD  LYS A  51      12.016   3.168   1.403  1.00 48.13           C  
+ATOM      8  CE  LYS A  51      12.036   1.710   1.877  1.00 50.43           C  
+ATOM      9  NZ  LYS A  51      11.138   1.465   3.047  1.00 52.59           N1+
+TER   
+HETATM   10  CA2 CDL A 801       9.686   4.448  11.890  1.00 47.60           C  
+HETATM   11  CA3 CDL A 801       9.782   0.731  12.947  1.00 58.15           C  
+HETATM   12  CA4 CDL A 801       9.778   0.602  14.503  1.00 62.77           C  
+HETATM   13  CA5 CDL A 801       8.099  -0.309  16.015  1.00 69.60           C  
+HETATM   14  CA6 CDL A 801      10.627   1.712  15.129  1.00 62.77           C  
+HETATM   15  CA7 CDL A 801      12.562   0.955  16.352  1.00 63.19           C  
+HETATM   16  OA2 CDL A 801      10.807   3.830  11.223  1.00 48.72           O  
+HETATM   17  OA3 CDL A 801      12.058   1.951  10.317  1.00 44.49           O1-
+HETATM   18  OA4 CDL A 801       9.608   1.742  10.282  1.00 47.79           O  
+HETATM   19  OA5 CDL A 801      10.838   1.627  12.518  1.00 51.84           O  
+HETATM   20  OA6 CDL A 801       8.423   0.662  15.099  1.00 67.67           O  
+HETATM   21  OA7 CDL A 801       8.407  -1.485  15.872  1.00 70.13           O  
+HETATM   22  OA8 CDL A 801      12.003   1.210  15.122  1.00 62.42           O  
+HETATM   23  OA9 CDL A 801      11.905   1.150  17.364  1.00 62.84           O  
+HETATM   24  CB2 CDL A 801      10.664   6.783  11.571  1.00 42.31           C  
+HETATM   25  CB3 CDL A 801       8.250   9.766  13.090  1.00 41.82           C  
+HETATM   26  CB4 CDL A 801       7.027  10.216  13.992  1.00 45.07           C  
+HETATM   27  CB5 CDL A 801       5.257  11.874  13.432  1.00 50.73           C  
+HETATM   28  CB6 CDL A 801       7.473  10.240  15.441  1.00 45.89           C  
+HETATM   29  CB7 CDL A 801       5.951   9.672  17.275  1.00 50.99           C  
+HETATM   30  OB2 CDL A 801      10.419   7.527  12.781  1.00 36.87           O  
+HETATM   31  OB3 CDL A 801      11.947   9.104  13.990  1.00 35.39           O1-
+HETATM   32  OB4 CDL A 801      11.086   9.772  11.796  1.00 34.91           O  
+HETATM   33  OB5 CDL A 801       9.532   9.791  13.805  1.00 37.24           O  
+HETATM   34  OB6 CDL A 801       6.576  11.546  13.566  1.00 49.60           O  
+HETATM   35  OB7 CDL A 801       4.607  11.343  12.553  1.00 54.74           O  
+HETATM   36  OB8 CDL A 801       6.490  10.640  16.457  1.00 49.50           O  
+HETATM   37  OB9 CDL A 801       6.271   8.513  17.165  1.00 54.12           O  
+HETATM   38  PA1 CDL A 801      10.797   2.230  11.035  1.00 46.37           P  
+HETATM   39  PB2 CDL A 801      10.796   9.052  13.074  1.00 35.82           P  
+HETATM   40  C1  CDL A 801       9.487   5.851  11.286  1.00 46.26           C  
+HETATM   41  O1  CDL A 801       8.327   6.320  12.018  1.00 48.01           O  
+HETATM   42  C11 CDL A 801       7.316   0.200  17.205  1.00 70.37           C  
+HETATM   43  C12 CDL A 801       8.011   0.023  18.547  1.00 71.16           C  
+HETATM   44  C13 CDL A 801       7.107   0.504  19.675  1.00 71.24           C  
+HETATM   45  C14 CDL A 801       7.671   0.239  21.053  1.00 71.06           C  
+HETATM   46  C15 CDL A 801       6.747   0.731  22.163  1.00 71.35           C  
+HETATM   47  C16 CDL A 801       6.244  -0.421  23.019  1.00 71.30           C  
+HETATM   48  C31 CDL A 801      13.976   0.447  16.231  1.00 62.56           C  
+HETATM   49  C51 CDL A 801       4.736  12.905  14.393  1.00 50.49           C  
+HETATM   50  C52 CDL A 801       3.633  12.606  15.371  1.00 50.72           C  
+HETATM   51  C53 CDL A 801       3.312  13.838  16.220  1.00 50.68           C  
+HETATM   52  C54 CDL A 801       3.780  13.758  17.659  1.00 52.28           C  
+HETATM   53  C55 CDL A 801       3.325  14.949  18.499  1.00 52.97           C  
+HETATM   54  C56 CDL A 801       3.814  14.837  19.942  1.00 54.27           C  
+HETATM   55  C57 CDL A 801       3.120  15.872  20.825  1.00 54.75           C  
+HETATM   56  C58 CDL A 801       3.159  15.473  22.296  1.00 54.39           C  
+HETATM   57  C71 CDL A 801       4.946  10.203  18.294  1.00 50.88           C  
+HETATM   58  C72 CDL A 801       5.189   9.621  19.676  1.00 49.99           C  
+HETATM   59  P   PC1 A 983       5.165   7.075   9.847  1.00121.31           P  
+HETATM   60  C1  PC1 A 983       5.377   7.241  12.388  1.00117.99           C  
+HETATM   61  C2  PC1 A 983       4.795   7.026  13.791  1.00116.49           C  
+HETATM   62  C3  PC1 A 983       3.420   7.711  13.701  1.00116.16           C  
+HETATM   63  O11 PC1 A 983       4.516   6.855  11.328  1.00120.05           O  
+HETATM   64  O12 PC1 A 983       4.185   6.662   8.796  1.00121.39           O  
+HETATM   65  O13 PC1 A 983       5.447   8.680   9.667  1.00121.00           O  
+HETATM   66  O14 PC1 A 983       6.480   6.336   9.764  1.00121.11           O1-
+HETATM   67  C21 PC1 A 983       5.775   4.829  14.652  1.00114.23           C  
+HETATM   68  O21 PC1 A 983       4.555   5.632  14.062  1.00115.35           O  
+HETATM   69  C22 PC1 A 983       5.388   3.685  15.594  1.00113.20           C  
+HETATM   70  O22 PC1 A 983       6.996   5.051  14.403  1.00114.22           O  
+HETATM   71  C23 PC1 A 983       5.823   4.032  17.008  1.00111.85           C  
+HETATM   72  C24 PC1 A 983       4.680   4.412  17.938  1.00110.72           C  
+HETATM   73  C25 PC1 A 983       5.267   4.737  19.331  1.00109.80           C  
+HETATM   74  C26 PC1 A 983       4.212   5.041  20.386  1.00109.29           C  
+HETATM   75  C27 PC1 A 983       4.337   4.059  21.539  1.00108.76           C  
+HETATM   76  C31 PC1 A 983       1.839   9.062  15.055  1.00115.42           C  
+HETATM   77  O31 PC1 A 983       3.179   8.340  14.999  1.00115.82           O  
+HETATM   78  C32 PC1 A 983       1.343   9.197  16.499  1.00115.03           C  
+HETATM   79  O32 PC1 A 983       1.197   9.510  14.071  1.00115.16           O  
+CONECT   10   16   40
+CONECT   11   12   19
+CONECT   12   11   14   20
+CONECT   13   21   42   20
+CONECT   14   12   22
+CONECT   15   23   48   22
+CONECT   16   10   38
+CONECT   17   38
+CONECT   18   38
+CONECT   19   11   38
+CONECT   20   12   13
+CONECT   21   13
+CONECT   22   14   15
+CONECT   23   15
+CONECT   24   30   40
+CONECT   25   26   33
+CONECT   26   25   28   34
+CONECT   27   35   49   34
+CONECT   28   26   36
+CONECT   29   37   57   36
+CONECT   30   24   39
+CONECT   31   39
+CONECT   32   39
+CONECT   33   25   39
+CONECT   34   26   27
+CONECT   35   27
+CONECT   36   28   29
+CONECT   37   29
+CONECT   38   16   17   18   19
+CONECT   39   30   31   32   33
+CONECT   40   10   24   41
+CONECT   41   40
+CONECT   42   13   43
+CONECT   43   42   44
+CONECT   44   43   45
+CONECT   45   44   46
+CONECT   46   45   47
+CONECT   47   46
+CONECT   48   15
+CONECT   49   27   50
+CONECT   50   49   51
+CONECT   51   50   52
+CONECT   52   51   53
+CONECT   53   52   54
+CONECT   54   53   55
+CONECT   55   54   56
+CONECT   56   55
+CONECT   57   29   58
+CONECT   58   57
+CONECT   59   63   65   66   64
+CONECT   60   61   63
+CONECT   61   60   62   68
+CONECT   62   61   77
+CONECT   63   59   60
+CONECT   64   59
+CONECT   65   59
+CONECT   66   59
+CONECT   67   69   70   68
+CONECT   68   61   67
+CONECT   69   67   71
+CONECT   70   67
+CONECT   71   69   72
+CONECT   72   71   73
+CONECT   73   72   74
+CONECT   74   73   75
+CONECT   75   74
+CONECT   76   78   79   77
+CONECT   77   62   76
+CONECT   78   76
+CONECT   79   76
+END

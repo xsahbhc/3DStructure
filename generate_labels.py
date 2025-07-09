@@ -1,14 +1,15 @@
 import pandas as pd
 import os
 import sys
+from sklearn.model_selection import train_test_split
 
 # 添加调试输出
 print("开始执行标签生成脚本...")
 
 # 路径定义
-train_csv_path = '/home/work/workspace/shi_shaoqun/snap/3D_structure/train.csv'
-root_dir = '/home/work/workspace/shi_shaoqun/snap/3D_structure/train_pdb'
-output_path = '/home/work/workspace/shi_shaoqun/snap/3D_structure/labels.csv'
+train_csv_path = '/home/work/workspace/shi_shaoqun/snap/3D_structure/biosnap/train_csv/train.csv'
+root_dir = '/home/work/workspace/shi_shaoqun/snap/3D_structure/biosnap/train_pdb'
+output_path = '/home/work/workspace/shi_shaoqun/snap/3D_structure/biosnap/train_csv/labels.csv'
 
 # 检查文件和目录是否存在
 print(f"检查CSV文件: {train_csv_path}")

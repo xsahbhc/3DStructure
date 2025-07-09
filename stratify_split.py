@@ -5,9 +5,17 @@ from sklearn.model_selection import train_test_split
 
 print("开始执行分层数据集划分...")
 
-# 配置路径
-labels_file = '3D_structure/labels.csv'
-output_dir = '3D_structure'
+# 配置路径 - 可以通过命令行参数或环境变量修改
+import sys
+if len(sys.argv) > 1:
+    # 如果提供了命令行参数，使用指定的数据集
+    dataset = sys.argv[1]  # 'bindingdb' 或 'biosnap'
+    labels_file = f'{dataset}/train_csv/labels.csv'
+    output_dir = f'{dataset}/train_csv'
+else:
+    # 默认使用bindingdb
+    labels_file = 'bindingdb/train_csv/labels.csv'
+    output_dir = 'bindingdb/train_csv'
 
 # 创建输出目录（如果不存在）
 os.makedirs(output_dir, exist_ok=True)

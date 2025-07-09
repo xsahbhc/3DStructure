@@ -53,17 +53,17 @@ async def main():
     start_time = time.time()
     
     # 设置主目录
-    main_dir = 'train_pdb'
+    main_dir = 'biosnap/train_pdb'
     os.makedirs(main_dir, exist_ok=True)
-    
+
     # 读取CSV文件
     try:
-        df = pd.read_csv('with_pdbid.csv')
+        df = pd.read_csv('biosnap/train_csv/with_pdbid.csv')
         if 'PDB_ID' not in df.columns:
             print("❌ 错误：CSV文件中找不到 'PDB_ID' 列")
             return
     except FileNotFoundError:
-        print("❌ 错误：找不到 with_pdbid.csv 文件")
+        print("❌ 错误：找不到 biosnap/train_csv/with_pdbid.csv 文件")
         return
     except Exception as e:
         print(f"❌ 错误：读取CSV文件时出错 - {str(e)}")

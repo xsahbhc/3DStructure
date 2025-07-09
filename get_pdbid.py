@@ -7,16 +7,18 @@ print("开始运行脚本...")
 
 # 读取 CSV 文件
 try:
-    print("正在读取 train.csv 文件...")
-    df = pd.read_csv('train.csv')
+    print("正在读取 biosnap train.csv 文件...")
+    df = pd.read_csv('biosnap/train_csv/train.csv')
     print(f"成功读取 {len(df)} 条序列数据")
 except FileNotFoundError:
-    print("错误：train.csv 文件不存在，请检查路径。")
+    print("错误：biosnap/train_csv/train.csv 文件不存在，请检查路径。")
     exit(1)
 
 print("正在创建输出文件...")
+# 确保biosnap目录存在
+os.makedirs('biosnap', exist_ok=True)
 # 创建输出文件
-with open('with_pdbid.csv', 'w') as f_with, open('without_pdbid.csv', 'w') as f_without:
+with open('biosnap/with_pdbid.csv', 'w') as f_with, open('biosnap/without_pdbid.csv', 'w') as f_without:
     # 写入表头（新增 seqid）
     f_with.write("seqid,Protein,PDB_ID,SMILES\n")
     f_without.write("seqid,Protein,SMILES\n")
@@ -24,7 +26,7 @@ with open('with_pdbid.csv', 'w') as f_with, open('without_pdbid.csv', 'w') as f_
     # 将所有序列写入临时 FASTA 文件
     try:
         print("正在创建临时 FASTA 文件...")
-        with open('temp.fasta', 'w') as temp_fasta:
+        with open('biosnap/temp.fasta', 'w') as temp_fasta:
             for idx, row in df.iterrows():
                 protein_seq = row['Protein']
                 temp_fasta.write(f">{idx}\n{protein_seq}\n")
@@ -37,7 +39,7 @@ with open('with_pdbid.csv', 'w') as f_with, open('without_pdbid.csv', 'w') as f_
     print("开始运行 DIAMOND 比对...")
     diamond_cmd = [
         os.path.expanduser('~/bin/diamond'), 'blastp',
-        '--query', 'temp.fasta',
+        '--query', 'biosnap/temp.fasta',
         '--db', 'pdb_db.dmnd',
         '--outfmt', '6',  # 使用制表符分隔的格式
         '--evalue', '1e-5',
@@ -90,10 +92,10 @@ with open('with_pdbid.csv', 'w') as f_with, open('without_pdbid.csv', 'w') as f_
 
 # 清理临时文件
 print("清理临时文件...")
-if os.path.exists('temp.fasta'):
+if os.path.exists('biosnap/temp.fasta'):
     if platform.system() != 'Windows':
-        os.system('rm temp.fasta')
+        os.system('rm biosnap/temp.fasta')
     else:
-        os.system('del temp.fasta')
+        os.system('del biosnap\\temp.fasta')
 
 print("脚本执行完成！")
